@@ -1,0 +1,359 @@
+html {
+	background: #e9eef6;
+}
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 14px;
+	/*background: orange;*/
+/*	border-left: 1px solid black;
+	border-right: 1px solid black;
+*/	font-family: Roboto, sans-serif;
+	padding-top: 20px;
+	border: 1px solid black;
+	background: white;
+}
+
+.courtcontainer {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.constructCourt {
+	margin: 0 auto;
+}
+
+.beachhead h4,
+.recommendations h4,
+.pricingTable h4 {
+	background: #2f7de4;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 10px 0;
+}
+
+.triplecourt {
+	text-align: center;
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.triplecourt img {
+	width: 33%;
+	margin: 10px 0;
+}
+
+.triplecourt p,
+.stepsImg p,
+.itemPhoto p,
+.bazookaInstructions p,
+.edgeGuardPics p,
+.itemPhotoCart p {
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center
+}
+
+.constructCourt {
+	display:inline-block;
+	/*margin: 0 auto;*/
+	/*width: 100%;*/
+}
+
+.steps {
+	width: 100%;
+}
+
+
+.stepsContent,
+.stepsImg,
+.itemPhoto img,
+.itemContent {
+	display: inline-block;
+	vertical-align: top;
+}
+.stepsContent,
+.itemContent {
+	display: inline-block;
+	margin-top: 0px;
+	max-width: 67%;
+	padding-right: 60px;
+	margin
+}
+
+.itemContent {
+	max-width: 57%;
+	padding-left:5px;
+}
+
+.stepsImg {
+	text-align: center;
+}
+.stepsImg,
+.itemPhoto {
+	display: inline-block;
+	max-width: 25%;
+	margin-top: 10px;
+}
+
+.itemPhoto,
+.itemPhotoCart {
+	max-width: 35%;
+	text-align: center;
+	display: inline-block;
+	/*padding-top:40px;*/
+}
+.stepsImg img,
+.itemPhoto img {
+	width: 100%;
+}
+
+.note {
+	text-align: center;
+}
+
+.courtItems {
+	margin: 40px 0;
+}
+.itemTitle {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	border-top: 1px solid grey;
+	padding-top: 35px;
+	padding-bottom: 20px;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.southCarolina {
+	padding-top: 55px;
+	border-top: 1px solid grey;
+}
+.titleUnderline {
+	width:50%;
+	margin: 0 auto;
+	background: grey;
+	height: 1px;
+}
+
+
+
+.bazookaInstructions {
+	text-align: center;
+	margin: 10px 0 60px;
+}
+
+.bazookaInstructions img {
+	width: 80%;
+	padding-bottom: 20px;
+}
+
+.EdgeItemContent {
+	display: inline-block;
+	margin-top: 0px;
+	max-width: 57%;
+	padding-right: 70px;
+	vertical-align: top;
+}
+
+.edgeGuardPics {
+	display: inline-block;
+	text-align: center;
+	max-width: 30%;
+}
+
+.edgeGuardPics img {
+	display: inline-block;
+	/*float: right;*/
+	width: 48%;
+	padding: 1px;
+}
+
+.edgeGuardPics p {
+	/*display: inline-block;*/
+	font-size: 12px;
+}
+
+.southCarolina {
+	width: 100%;
+	/*height: 80%;*/
+	margin: 10px 0 20px;
+}
+
+.itemPhotoCart img {
+	vertical-align: center;
+	width: 80%;
+}
+
+.pricingTable th {
+	background:#FF0000;
+	color: white;
+	text-align: left;
+	font-weight: 700;
+}
+
+.pricingTable  tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+.pricingTable  table, th, td {
+	/*border: 1px solid black;*/
+	border-collapse: collapse;
+
+}
+
+.pricingTable th, td {
+	padding: 15px;
+}
+
+.courtGallery {
+	width: 100%;
+	text-align: center;
+}
+
+.courtGallery h1 {
+	font-size: 18px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.galleryPic {
+	display: inline-block;
+	width: 23%;
+	padding: 5px;
+}
+
+.galleryPic img {
+	max-width: 100%;
+}
+
+@media (max-width: 479px) {
+	body {
+		font-size: 2.5em;
+	}
+
+	.beachhead h4 {
+		font-size: 1.1em;
+	}
+	.triplecourt {
+		width: 100%;
+	}
+
+	.triplecourt a img {
+		width: 32%;
+		display: inline-block;
+	}
+
+	.triplecourt p,
+	.stepsImg p,
+	.itemPhoto p,
+	.bazookaInstructions p,
+	.edgeGuardPics p,
+	.itemPhotoCart p {
+		font-size: 34px
+	}
+
+	.constructCourt {
+		padding-top: 45px;
+	}
+
+	.stepsContent {
+		padding: 0;
+	}
+	.stepsContent,
+	.stepsImg {
+		display: block;
+	}
+
+	.stepsContent,
+	.stepsImg {
+		max-width: 100%;
+	}
+
+	.bazookaInstructions img {
+		width: 100%;
+	}
+
+	.bazookaInstructions {
+		margin-bottom: 80px;
+	}
+
+	.itemTitle {
+		font-size: 1em;
+		border-top: 2px solid grey;
+		padding-top: 40px;
+	}
+	.itemContent,
+	.itemPhoto,
+	.EdgeItemContent {
+		display: block;
+	}
+	.itemContent,
+	.EdgeItemContent {
+		max-width: 100%;
+		padding-right: 0;
+	}
+
+	.edgeGuardPics {
+		max-width: 100%;
+		padding-top: 30px;
+		/*border-bottom: 2px solid grey;*/
+		padding-bottom: 5px;
+	}
+
+	.edgeGuardPics img {
+		width: 40%;
+	}
+
+	.itemPhoto {
+		max-width: 100%;
+		height: 20%;
+	}
+
+	.itemPhoto img {
+		margin-bottom: 20px;
+	}
+
+	.itemPhotoCart {
+		max-width: 100%;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+	.itemPhotoCart img {
+		width: 70%;
+	}
+
+	.pricingTable th {
+		padding:10px;
+	}
+	.pricingTable td {
+		padding: 10px;
+	}
+
+	table {
+		overflow-x: auto;
+		font-size: .5em;
+	}
+
+	.galleryPic {
+		display: inline-block;
+		width: 22%;
+		padding: 5px;
+		vertical-align: top;
+	}
+
+	.galleryPic p {
+		font-size: 18px;
+	}
+
+	.courtGallery h1 {
+		padding-top: 20px;
+	}
+}
